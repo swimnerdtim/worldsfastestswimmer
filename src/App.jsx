@@ -22,7 +22,7 @@ function App() {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">WORLD'S FASTEST SWIMMER</h1>
-          <p className="hero-subtitle">August 21, 2026 | Virginia Beach</p>
+          <p className="hero-subtitle">August 21, 2026 | 10 AM | Virginia Beach</p>
           <p className="hero-tagline">Pure speed. No pacing. Only the fastest survive.</p>
           
           <form onSubmit={handleSubmit} className="email-form">
@@ -58,7 +58,7 @@ function App() {
               <p>W 25 Free • M 25 Free</p>
             </div>
             <div className="format-card">
-              <h3>PRELIMS</h3>
+              <h3>PRELIMS - 10 AM</h3>
               <p>All age groups compete</p>
               <p className="subtext">20s • 30s • 40s • 50s • 60s • 70s • 80s</p>
             </div>
