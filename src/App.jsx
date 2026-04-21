@@ -81,7 +81,7 @@ function App() {
           <div className="venue-grid">
             <div className="venue-card">
               <img 
-                src="/aquaplex.jpg" 
+                src={`${import.meta.env.BASE_URL}aquaplex.jpg`}
                 alt="Hampton Aquaplex"
                 className="venue-image"
               />
@@ -92,7 +92,7 @@ function App() {
             </div>
             <div className="venue-card">
               <img 
-                src="/beach.jpg" 
+                src={`${import.meta.env.BASE_URL}beach.jpg`}
                 alt="Virginia Beach Oceanfront"
                 className="venue-image"
               />
