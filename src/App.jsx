@@ -68,8 +68,8 @@ function App() {
               <p className="subtext">Age doesn't matter. Only speed.</p>
             </div>
             <div className="format-card">
-              <h3>CASH PRIZES</h3>
-              <p>Winners take home the purse</p>
+              <h3>THE PRIZE</h3>
+              <p>Glory. Bragging rights. History.</p>
               <p className="subtext">Details coming soon</p>
             </div>
           </div>
@@ -115,7 +115,7 @@ function App() {
             <p className="stakes-lead">This isn't a typical masters meet.</p>
             <p>No pacing. No strategy. No room for error.</p>
             <p>25 meters of pure power.</p>
-            <p className="stakes-highlight">The fastest 8 swimmers in each event compete for cash prizes.</p>
+            <p className="stakes-highlight">The fastest 8 swimmers in each event compete for the title.</p>
             <p>Everyone else goes home wondering "what if?"</p>
             <p className="stakes-question">Are you fast enough?</p>
           </div>
