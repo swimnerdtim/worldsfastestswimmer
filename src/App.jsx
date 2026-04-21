@@ -24,7 +24,7 @@ function App() {
           <h1 className="hero-title">WORLD'S FASTEST SWIMMER</h1>
           <p className="hero-subtitle">August 22, 2026 | Virginia Beach</p>
           <p className="hero-tagline">Prelims 9-11 AM • Finals 5-6 PM</p>
-          <p className="hero-description">Pure speed. No pacing. Only the fastest survive.</p>
+          <p className="hero-description">Only the fastest survive.</p>
           
           <form onSubmit={handleSubmit} className="email-form">
             <input
