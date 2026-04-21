@@ -22,8 +22,9 @@ function App() {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">WORLD'S FASTEST SWIMMER</h1>
-          <p className="hero-subtitle">August 21, 2026 | 10 AM | Virginia Beach</p>
-          <p className="hero-tagline">Pure speed. No pacing. Only the fastest survive.</p>
+          <p className="hero-subtitle">August 21, 2026 | Virginia Beach</p>
+          <p className="hero-tagline">Prelims 9 AM • Finals 5 PM</p>
+          <p className="hero-description">Pure speed. No pacing. Only the fastest survive.</p>
           
           <form onSubmit={handleSubmit} className="email-form">
             <input
@@ -58,13 +59,13 @@ function App() {
               <p>W 25 Free • M 25 Free</p>
             </div>
             <div className="format-card">
-              <h3>PRELIMS - 10 AM</h3>
+              <h3>PRELIMS - 9 AM</h3>
               <p>All age groups compete</p>
               <p className="subtext">20s • 30s • 40s • 50s • 60s • 70s • 80s</p>
             </div>
             <div className="format-card">
-              <h3>TOP 8 FINALS</h3>
-              <p>Fastest times advance</p>
+              <h3>FINALS - 5 PM</h3>
+              <p>Top 8 fastest times only</p>
               <p className="subtext">Age doesn't matter. Only speed.</p>
             </div>
             <div className="format-card">
