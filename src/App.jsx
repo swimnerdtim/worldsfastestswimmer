@@ -22,7 +22,7 @@ function App() {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">WORLD'S FASTEST SWIMMER</h1>
-          <p className="hero-subtitle">August 21, 2026 | Virginia Beach</p>
+          <p className="hero-subtitle">August 22, 2026 | Virginia Beach</p>
           <p className="hero-tagline">Prelims 9-11 AM • Finals 5-6 PM</p>
           <p className="hero-description">Pure speed. No pacing. Only the fastest survive.</p>
           
@@ -125,7 +125,7 @@ function App() {
       {/* Final CTA Section */}
       <section className="final-cta">
         <div className="container">
-          <h2>AUGUST 21, 2026</h2>
+          <h2>AUGUST 22, 2026</h2>
           <p>Registration opens soon. Get on the list first.</p>
           
           <form onSubmit={handleSubmit} className="email-form">
