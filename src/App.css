@@ -161,6 +161,11 @@ h2 {
   margin-bottom: 3rem;
   text-transform: uppercase;
   letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+h3 {
+  color: #ffffff;
 }
 
 /* Format Section */
