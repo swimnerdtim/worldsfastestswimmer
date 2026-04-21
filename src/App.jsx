@@ -115,9 +115,6 @@ function App() {
         <div className="container">
           <h2>THE STAKES</h2>
           <div className="stakes-content">
-            <p className="stakes-lead">This isn't a typical masters meet.</p>
-            <p>No pacing. No strategy. No room for error.</p>
-            <p>25 meters of pure power.</p>
             <p className="stakes-highlight">The fastest 8 swimmers in each event compete for the title.</p>
             <p>Everyone else goes home wondering "what if?"</p>
             <p className="stakes-question">Are you fast enough?</p>
