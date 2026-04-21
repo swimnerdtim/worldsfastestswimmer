@@ -4,7 +4,7 @@ High-converting landing page for the World's Fastest Swimmer meet in Virginia Be
 
 ## Event Details
 
-- **Date:** August 20, 2026
+- **Date:** August 21, 2026
 - **Location:** Hampton Aquaplex, Virginia Beach, VA
 - **Format:** 25m sprints (Fly, Back, Breast, Free)
 - **Competition:** Top 8 fastest times advance to finals (cash prizes)
