@@ -51,9 +51,11 @@ function App() {
           <h2>THE FORMAT</h2>
           <div className="format-grid">
             <div className="format-card">
-              <h3>4 EVENTS</h3>
-              <p>25 Fly • 25 Back • 25 Breast • 25 Free</p>
-              <p className="subtext">Men's & Women's</p>
+              <h3>EVENT SCHEDULE</h3>
+              <p>W 25 Fly • M 25 Fly</p>
+              <p>W 25 Back • M 25 Back</p>
+              <p>W 25 Breast • M 25 Breast</p>
+              <p>W 25 Free • M 25 Free</p>
             </div>
             <div className="format-card">
               <h3>PRELIMS</h3>
