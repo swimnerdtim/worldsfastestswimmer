@@ -1,16 +1,41 @@
-# React + Vite
+# World's Fastest Swimmer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+High-converting landing page for the World's Fastest Swimmer meet in Virginia Beach.
 
-Currently, two official plugins are available:
+## Event Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Date:** August 20, 2026
+- **Location:** Hampton Aquaplex, Virginia Beach, VA
+- **Format:** 25m sprints (Fly, Back, Breast, Free)
+- **Competition:** Top 8 fastest times advance to finals (cash prizes)
 
-## React Compiler
+## Live Site
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **GitHub Pages:** https://swimnerdtim.github.io/worldsfastestswimmer/
+- **Custom Domain:** worldsfastestswimmer.com (pending DNS setup)
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Deployment
+
+Auto-deploys to GitHub Pages on push to main branch.
+
+## TODO
+
+- [ ] Wire up Beehiiv email capture API
+- [ ] Point worldsfastestswimmer.com DNS to GitHub Pages
+- [ ] Add registration link once swimpractice.com product page is ready
+- [ ] Add social share meta tags with custom images
+
+## Tech Stack
+
+- React + Vite
+- GitHub Pages
+- Beehiiv (email list)
+
+Built by Swimnerd.
