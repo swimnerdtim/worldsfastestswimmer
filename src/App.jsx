@@ -9,11 +9,28 @@ function App() {
     e.preventDefault();
     setStatus('joining...');
     
-    // TODO: Wire up Beehiiv API
-    setTimeout(() => {
-      setStatus('success');
-      setEmail('');
-    }, 1000);
+    try {
+      const response = await fetch('https://swimnerd-server-signup.onrender.com/wfs-signup', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ email })
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok) {
+        setStatus('success');
+        setEmail('');
+      } else {
+        setStatus('error');
+        console.error('Subscription error:', data.error);
+      }
+    } catch (error) {
+      setStatus('error');
+      console.error('Network error:', error);
+    }
   };
 
   return (
@@ -42,6 +59,10 @@ function App() {
           
           {status === 'success' && (
             <p className="success-message">✓ You're on the list. Get ready.</p>
+          )}
+          
+          {status === 'error' && (
+            <p className="error-message">Something went wrong. Try again.</p>
           )}
         </div>
       </section>

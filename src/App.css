@@ -144,6 +144,12 @@ body {
   font-size: 1.1rem;
 }
 
+.error-message {
+  color: #ef4444;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
 /* Sections */
 section {
   padding: 6rem 2rem;
