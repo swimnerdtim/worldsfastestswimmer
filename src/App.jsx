@@ -53,10 +53,9 @@ function App() {
           <div className="format-grid">
             <div className="format-card">
               <h3>EVENT SCHEDULE</h3>
-              <p>W 25 Fly • M 25 Fly</p>
-              <p>W 25 Back • M 25 Back</p>
-              <p>W 25 Breast • M 25 Breast</p>
-              <p>W 25 Free • M 25 Free</p>
+              <p className="highlight">Women's 25m Freestyle</p>
+              <p className="highlight">Men's 25m Freestyle</p>
+              <p className="subtext">Two events. One champion each.</p>
             </div>
             <div className="format-card">
               <h3>PRELIMS</h3>
