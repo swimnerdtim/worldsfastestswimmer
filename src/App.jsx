@@ -38,6 +38,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
+          <img src="/swimnerd-logo.png" alt="Swimnerd" className="hero-logo" />
           <h1 className="hero-title">WORLD'S FASTEST SWIMMER</h1>
           <p className="hero-subtitle">August 29, 2026 | Virginia Beach</p>
           <p className="hero-tagline">Prelims 9-11 AM • Finals 4-6 PM</p>
@@ -166,6 +167,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
+        <img src="/swimnerd-logo.png" alt="Swimnerd" className="footer-logo" />
         <p>Presented by <a href="https://swimnerd.com" target="_blank" rel="noopener noreferrer">Swimnerd</a></p>
       </footer>
     </div>
