@@ -10,7 +10,7 @@ function App() {
     setStatus('joining...');
     
     try {
-      const response = await fetch('https://swimnerd-server-signup.onrender.com/wfs-signup', {
+      const response = await fetch('https://swimnerd-server-signup.onrender.com/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
