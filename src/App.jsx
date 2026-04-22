@@ -82,6 +82,7 @@ function App() {
               <h3>PRELIMS</h3>
               <p className="highlight">9-11 AM</p>
               <p>All age groups compete</p>
+              <p className="subtext">Enter up to 3 times per event.</p>
               <p className="subtext">Swim your fastest. Qualify for your age group final.</p>
             </div>
             <div className="format-card">
