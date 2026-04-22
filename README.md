@@ -25,9 +25,16 @@ npm run dev
 
 Auto-deploys to GitHub Pages on push to main branch.
 
+## Email Signup
+
+Email signups go to Beehiiv via the Swimnerd signup server:
+- Endpoint: `https://swimnerd-server-signup.onrender.com/wfs-signup`
+- Tags: `utm_source=worldsfastestswimmer`, `utm_campaign=wfs_2026`
+- All subscribers added to main Swimnerd newsletter
+
 ## TODO
 
-- [ ] Wire up Beehiiv email capture API
+- [x] Wire up Beehiiv email capture API
 - [ ] Point worldsfastestswimmer.com DNS to GitHub Pages
 - [ ] Add registration link once swimpractice.com product page is ready
 - [ ] Add social share meta tags with custom images
