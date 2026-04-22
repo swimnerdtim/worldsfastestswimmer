@@ -23,7 +23,7 @@ function App() {
         <div className="hero-content">
           <h1 className="hero-title">WORLD'S FASTEST SWIMMER</h1>
           <p className="hero-subtitle">August 29, 2026 | Virginia Beach</p>
-          <p className="hero-tagline">Prelims 9-11 AM • Finals 5-6 PM</p>
+          <p className="hero-tagline">Prelims 9-11 AM • Finals 4-6 PM</p>
           <p className="hero-description">Only the fastest survive.</p>
           
           <form onSubmit={handleSubmit} className="email-form">
@@ -65,16 +65,11 @@ function App() {
             </div>
             <div className="format-card">
               <h3>FINALS</h3>
-              <p className="highlight">5-6 PM</p>
+              <p className="highlight">4-6 PM</p>
               <p>Top 8 per age group (M & W)</p>
               <p className="subtext">80s → 70s → 60s → 50s → 40s → 30s → 20s</p>
               <p className="subtext" style={{marginTop: '8px'}}>Age group heats, then the FASTEST HEAT.</p>
               <p className="highlight" style={{marginTop: '8px'}}>The 8 fastest overall close the show.</p>
-            </div>
-            <div className="format-card">
-              <h3>THE PRIZE</h3>
-              <p>Glory. Bragging rights. History.</p>
-              <p className="subtext">Details coming soon</p>
             </div>
           </div>
         </div>
