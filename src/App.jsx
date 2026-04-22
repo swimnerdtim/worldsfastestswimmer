@@ -104,10 +104,10 @@ function App() {
             <div className="venue-card">
               <img 
                 src={`${import.meta.env.BASE_URL}aquaplex.jpg`}
-                alt="Hampton Aquaplex"
+                alt="Virginia Aquaplex"
                 className="venue-image"
               />
-              <h3>HAMPTON AQUAPLEX</h3>
+              <h3>VIRGINIA AQUAPLEX</h3>
               <p>World-class 50m competition pool</p>
               <p className="highlight">Arena seating for 800 spectators</p>
               <p className="subtext">Pack the house. Make noise. Watch history.</p>
