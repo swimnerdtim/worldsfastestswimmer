@@ -61,13 +61,14 @@ function App() {
               <h3>PRELIMS</h3>
               <p className="highlight">9-11 AM</p>
               <p>All age groups compete</p>
-              <p className="subtext">20s • 30s • 40s • 50s • 60s • 70s • 80s</p>
+              <p className="subtext">Swim your fastest. Qualify for your age group final.</p>
             </div>
             <div className="format-card">
               <h3>FINALS</h3>
               <p className="highlight">5-6 PM</p>
-              <p>Top 8 fastest times only</p>
-              <p className="subtext">Age doesn't matter. Only speed.</p>
+              <p>Top 8 per age group (M & W)</p>
+              <p className="subtext">20s • 30s • 40s • 50s • 60s • 70s • 80s</p>
+              <p className="subtext" style="margin-top: 8px">Oldest to youngest. Every age group gets their moment.</p>
             </div>
             <div className="format-card">
               <h3>THE PRIZE</h3>
@@ -114,9 +115,10 @@ function App() {
         <div className="container">
           <h2>THE STAKES</h2>
           <div className="stakes-content">
-            <p className="stakes-highlight">The fastest 8 swimmers in each event compete for the title.</p>
-            <p>Everyone else goes home wondering "what if?"</p>
-            <p className="stakes-question">Are you fast enough?</p>
+            <p className="stakes-highlight">Top 8 in your age group. That's the bar.</p>
+            <p>Every decade gets a champion. 20s through 80s.</p>
+            <p>Finals run oldest to youngest—because legends go first.</p>
+            <p className="stakes-question">Can you make top 8 in your age group?</p>
           </div>
         </div>
       </section>
