@@ -110,8 +110,6 @@ function App() {
               />
               <h3>VIRGINIA AQUAPLEX</h3>
               <p>World-class 50m competition pool</p>
-              <p className="highlight">Arena seating for 800 spectators</p>
-              <p className="subtext">Pack the house. Make noise. Watch history.</p>
             </div>
             <div className="venue-card">
               <img 
@@ -120,9 +118,7 @@ function App() {
                 className="venue-image"
               />
               <h3>VIRGINIA BEACH OCEANFRONT</h3>
-              <p>Race in the morning. Party on the beach.</p>
-              <p className="highlight">During ECSC - thousands of masters swimmers in town</p>
-              <p className="subtext">Stay an extra day. Find out how fast you really are.</p>
+              <p>Race in the morning. Party on the beach at night.</p>
             </div>
           </div>
         </div>
