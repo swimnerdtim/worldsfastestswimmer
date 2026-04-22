@@ -68,8 +68,8 @@ function App() {
               <p className="highlight">5-6 PM</p>
               <p>Top 8 per age group (M & W)</p>
               <p className="subtext">80s → 70s → 60s → 50s → 40s → 30s → 20s</p>
-              <p className="subtext" style="margin-top: 8px">Age group heats, then the FASTEST HEAT.</p>
-              <p className="highlight" style="margin-top: 8px">The 8 fastest overall close the show.</p>
+              <p className="subtext" style={{marginTop: '8px'}}>Age group heats, then the FASTEST HEAT.</p>
+              <p className="highlight" style={{marginTop: '8px'}}>The 8 fastest overall close the show.</p>
             </div>
             <div className="format-card">
               <h3>THE PRIZE</h3>
@@ -118,7 +118,7 @@ function App() {
           <div className="stakes-content">
             <p className="stakes-highlight">Top 8 in your age group. That's the bar.</p>
             <p>Every decade gets a champion. 80s down to 20s.</p>
-            <p className="stakes-highlight" style="margin-top: 16px">But the 8 FASTEST swimmers overall?</p>
+            <p className="stakes-highlight" style={{marginTop: '16px'}}>But the 8 FASTEST swimmers overall?</p>
             <p>They get the final heat. The spotlight. The title.</p>
             <p className="stakes-question">World's Fastest Swimmer.</p>
           </div>
