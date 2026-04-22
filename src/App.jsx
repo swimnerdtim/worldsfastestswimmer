@@ -133,7 +133,7 @@ function App() {
             <p>Every decade gets a champion. 80s down to 20s.</p>
             <p className="stakes-highlight" style={{marginTop: '16px'}}>But the 8 FASTEST swimmers overall?</p>
             <p>They get the final heat. The spotlight. The title.</p>
-            <p className="stakes-question">World's Fastest Swimmer.</p>
+            <p className="stakes-question">World's Fastest Swimmer and $25,000!</p>
           </div>
         </div>
       </section>
