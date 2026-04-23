@@ -151,7 +151,7 @@ function App() {
             </div>
             <div className="partner-card">
               <a href="https://www.atkinsonlawva.com/" target="_blank" rel="noopener noreferrer">
-                <img src="/atkinson-law-logo.jpg" alt="Atkinson Law" className="partner-logo" />
+                <img src="/atkinson-law.jpg" alt="Atkinson Law" className="partner-logo" />
               </a>
             </div>
           </div>
