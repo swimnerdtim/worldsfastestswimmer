@@ -130,7 +130,7 @@ function App() {
         <div className="container">
           <h2>THE STAKES</h2>
           <div className="stakes-content">
-            <p className="stakes-highlight">Top 8 in your age group. That's the bar.</p>
+            <p className="stakes-highlight">Top 8 in your age group move on to the big show at night.</p>
             <p>Every decade gets a champion. 80s down to 20s.</p>
             <p className="stakes-highlight" style={{marginTop: '16px'}}>But the 8 FASTEST swimmers overall?</p>
             <p>They get the final heat. The spotlight. The title.</p>
