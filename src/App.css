@@ -321,6 +321,76 @@ h3 {
   margin-top: 3rem !important;
 }
 
+/* Partners Section */
+.partners {
+  background: #000000;
+  padding: 4rem 2rem;
+}
+
+.partners h2 {
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.partner-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(96, 189, 224, 0.2);
+  transition: all 0.3s ease;
+  min-height: 150px;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(96, 189, 224, 0.5);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.partner-card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.partner-logo {
+  max-width: 180px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.partner-card:hover .partner-logo {
+  opacity: 1;
+}
+
+.partner-logo-text {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #60BDE0;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 /* Final CTA Section */
 .final-cta {
   background: #000000;

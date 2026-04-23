@@ -139,6 +139,25 @@ function App() {
         </div>
       </section>
 
+      {/* Partners Section */}
+      <section className="partners">
+        <div className="container">
+          <h2>PARTNERS</h2>
+          <div className="partners-grid">
+            <div className="partner-card">
+              <a href="https://nightswimpod.com" target="_blank" rel="noopener noreferrer">
+                <img src="/nightswim-logo.png" alt="Night Swim Podcast" className="partner-logo" />
+              </a>
+            </div>
+            <div className="partner-card">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div className="partner-logo-text">Atkinson Law</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA Section */}
       <section className="final-cta">
         <div className="container">
